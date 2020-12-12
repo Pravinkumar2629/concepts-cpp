@@ -54,8 +54,8 @@ void StdSetAndMultiset() {
 		std::cout << "Printing set elements " << *itr++ << std::endl;
 	}
 
-	auto itr = _set.find(6);
-	if (itr != _set.end()) {
+	auto itr2 = _set.find(6);
+	if (itr2 != _set.end()) {
 		std::cout << "Found element in set " << *itr << std::endl;
 	}
 	
@@ -69,7 +69,8 @@ void StdSetAndMultiset() {
 
 	auto pair_found = _multiset.equal_range(47);
 	while (pair_found.first != pair_found.second) {
-		std::cout << "Element found " << pair_found.first++ << std::endl;
+		//std::cout << "Element found " << pair_found.first++ << std::endl;
+		std::cout << "Element found ";
 	}
 }
 

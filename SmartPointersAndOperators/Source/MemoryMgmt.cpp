@@ -106,6 +106,7 @@ Employee* AssignProject() {
 //	Employee *e = new Employee();
 //	e->SetProject(p);
 //	return e;
+	return nullptr;
 
 }
 
